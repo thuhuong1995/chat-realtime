@@ -1,0 +1,48 @@
+.sidebar {
+  background-color: #3f0e40;
+  height: 100vh;
+}
+/* User */
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid springgreen;
+
+  height: 70px;
+}
+.user-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-name {
+  padding-left: 8px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Room List */
+.roomlist {
+  background-color: rgba(243, 113, 243, 0);
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: #ffffff;
+}
+.roomlist-wrap {
+  padding: 4px 24px;
+}
+.roomlist-number {
+  display: block;
+  color: #ffffff !important;
+  margin-bottom: 5px;
+}
+.roomlist-btn {
+  outline: 1px solid rgb(54, 240, 101);
+  color: #ffffff;
+}
+.roomlist-btn:hover {
+  outline: 1px solid #ffffff;
+  color: rgb(54, 240, 101);
+}
